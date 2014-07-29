@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <title></title>
     <meta charset="utf-8">
@@ -16,9 +16,6 @@
     <script src="js/easyTooltip.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript"></script>
     <script src="js/bgSlider.js" type="text/javascript"></script>
-    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
-    <script src="js/tms-0.3.js" type="text/javascript"></script>
-    <script src="js/tms_presets.js" type="text/javascript"></script>
 	<!--[if lt IE 7]>
     <div style=' clear: both; text-align:center; position: relative;'>
         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -31,19 +28,16 @@
         <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
 	<![endif]-->
 </head>
-<body id="page1">
+<body id="page2">
 	<div id="bgSlider"></div>
     <div class="bg_spinner"></div>
 	<div class="extra">
         <!--==============================header=================================-->
         <header>
-            <div class="top-row">
-                <div class="main">
-                    <div class="wrapper">
-                        <h1>
-                            <!--Aqui es la etiqueta a va el logo de la empresa-->
-                            <a href="index.html">Venta de Pollo X</a>
-                        </h1>
+        	<div class="top-row">
+            	<div class="main">
+                	<div class="wrapper">
+                        <h1><a href="index.html">Restaurant EL DORADO</a></h1>
                         <ul class="pagination">
                             <li class="current"><a href="images/bg-img1.jpg">1</a></li>
                             <li><a href="images/bg-img2.jpg">2</a></li>
@@ -57,8 +51,8 @@
                 	<div class="main">
                         <nav>
                             <ul class="menu">
-                                <li><a class="active" href="index.html">Inicio</a></li>
-                                <li><a href="menu.html">Menu</a></li>
+                                 <li><a href="index.html">Inicio</a></li>
+                                <li><a class="active" href="menu.html">Menu</a></li>
                                 <li><a href="acerca-de-nosotros.html">Acerca de Nosotros</a></li>
                                 <li><a href="terminos-y-condiciones.html">Términos y condiciones</a></li>
                                 <li class="last"><a href="contacto.html">Contacto</a></li>
@@ -72,56 +66,54 @@
         <div class="inner">
             <div class="main">
                 <section id="content">
-                    <div class="slider">
-                        <ul class="items">
-                            <li>
-                                <img src="images/pollos/pollo-alitas-2.png" alt="" />
-                                <div class="banner">
-                                    <strong class="title">
-                                        <em>El Dorado</em><strong>Pollos</strong>
-                                    </strong>
-                                    <p class="p3">descripcion de los pollos</p>
-                                    <a class="button-1" href="menu-pollos.html">Leer mas</a>
+                    <div class="indent">
+                    	<div class="wrapper">
+                        	<article >
+                                <div class="indent-left">
+                                    <div id="menu" class="menu">
+                                        <h3 class="titulo-menu-pollo">
+                                            <strong class="title">
+                                                <strong>Menu</strong><em> Pichanga</em>
+                                            </strong> 
+                                        </h3>
+                                        <div class="menu-pollos">
+                                            <figure>
+                                                <img src="images/pichanga/pichanga-chica.png"/>
+                                            </figure>
+                                            <h4>
+                                                Pichanga Grande
+                                            </h4>
+                                            <h3>
+                                               $20 
+                                            </h3>
+                                        </div>
+                                        <div class="menu-pollos">
+                                            <figure>
+                                                <img src="images/pichanga/pichanga-mediana.png"/>
+                                            </figure>
+                                            <h4>
+                                                Pichanga mediana
+                                            </h4>
+                                            <h3>
+                                               $20 
+                                            </h3>
+                                        </div>
+                                        <div class="menu-pollos">
+                                             <figure>
+                                                <img src="images/pichanga/pichanga-chica.png"/>
+                                            </figure>
+                                            <h4>
+                                                Pichanga chica
+                                            </h4>
+                                            <h3>
+                                               $20 
+                                            </h3>
+                                        </div>
+                                    </div>
                                 </div>
-                            </li>
-                            <li>
-                                <img src="images/completos/complemento.png" alt="" />
-                                <div class="banner">
-                                    <strong class="title">
-                                        <em>El Dorado</em><strong>Completos</strong>
-                                    </strong>
-                                    <p>descripcion de los platos completos</p>
-                                    <a class="button-1" href="menu-completos.html">Leer mas</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="images/extras/extras.png" alt="" />
-                                <div class="banner">
-                                    <strong class="title">
-                                        <em>El Dorado</em><strong>Extras</strong>
-                                    </strong>
-                                    <p>descripcion de los platos Extras</p>
-                                    <a class="button-1" href="menu-extras.html">Leer mas</a>
-                                </div>
-                            </li>
-                            <li>
-                                <img src="images/pichanga/pichanga.png" alt="" />
-                                <div class="banner">
-                                    <strong class="title">
-                                        <em>El Dorado</em><strong>Pichanga</strong>
-                                    </strong>
-                                    <p>descripcion de los platos de pichanga</p>
-                                    <a class="button-1" href="menu-pichanga.html">Leer mas</a>
-                                </div>
-                            </li>
-                        </ul>
+                            </article>
+                        </div>
                     </div>
-                    <ul class="pags">
-                        <li><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                    </ul>
                 </section>
                 <div class="block"></div>
             </div>
@@ -135,7 +127,6 @@
                 	<div class="fleft footer-text">
                     	<span>Miasoft srl</span> &copy; 2014
                         <strong>Sitio web oficial <a rel="nofollow" class="link" target="_blank" href="http://www.miasoft.com.bo/">www.miasoft.com.bo</a></strong>
-                        <!-- {%FOOTER_LINK} -->
                     </div>
                     <ul class="list-services">
                     	<li>Link to Us:</li>
@@ -148,19 +139,5 @@
         </div>
     </footer>
     <script type="text/javascript"> Cufon.now(); </script>
-    <script type="text/javascript">
-		$(window).load(function() {
-			$('.slider')._TMS({
-				duration:1000,
-				easing:'easeOutQuart',
-				preset:'simpleFade',
-				slideshow:10000,
-				banners:'fade',
-				pauseOnHover:true,
-				waitBannerAnimation:false,
-				pagination:'.pags'
-			});
-		});
-    </script>
 </body>
 </html>
